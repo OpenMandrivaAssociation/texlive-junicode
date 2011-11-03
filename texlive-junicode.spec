@@ -1,3 +1,9 @@
+# revision 18651
+# category Package
+# catalog-ctan /fonts/junicode
+# catalog-date 2009-11-09 22:36:07 +0100
+# catalog-license gpl
+# catalog-version 0.6.17
 Name:		texlive-junicode
 Version:	0.6.17
 Release:	1
@@ -49,6 +55,7 @@ such, it works well with Xe(La)TeX.
 %doc %{_texmfdistdir}/doc/fonts/junicode/mufi.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/mufi.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/replacements
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ such, it works well with Xe(La)TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
