@@ -1,12 +1,12 @@
-# revision 18651
+# revision 25191
 # category Package
 # catalog-ctan /fonts/junicode
-# catalog-date 2009-11-09 22:36:07 +0100
+# catalog-date 2012-01-23 23:37:37 +0100
 # catalog-license gpl
-# catalog-version 0.6.17
+# catalog-version 0.7.1
 Name:		texlive-junicode
-Version:	0.6.17
-Release:	2
+Version:	0.7.1
+Release:	1
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/junicode
@@ -19,8 +19,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Junicode is a TrueType font with many OpenType features. As
-such, it works well with Xe(La)TeX.
+Junicode is a TrueType font with many OpenType features, that
+works well with Xe(La)TeX.
 
 %post
     %{_sbindir}/texlive.post
@@ -35,14 +35,11 @@ such, it works well with Xe(La)TeX.
 %{_texmfdistdir}/fonts/truetype/public/junicode/Junicode-Bold.ttf
 %{_texmfdistdir}/fonts/truetype/public/junicode/Junicode-BoldItalic.ttf
 %{_texmfdistdir}/fonts/truetype/public/junicode/Junicode-Italic.ttf
-%{_texmfdistdir}/fonts/truetype/public/junicode/Junicode-Regular.ttf
+%{_texmfdistdir}/fonts/truetype/public/junicode/Junicode.ttf
+%{_texmfdistdir}/tex/latex/junicode/mt-Junicode.cfg
 %doc %{_texmfdistdir}/doc/fonts/junicode/Junicode.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/Junicode.tex
-%doc %{_texmfdistdir}/doc/fonts/junicode/License.pdf
-%doc %{_texmfdistdir}/doc/fonts/junicode/License.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/README
-%doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.pdf
-%doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/mufi.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/mufi.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/replacements
@@ -55,4 +52,4 @@ such, it works well with Xe(La)TeX.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
