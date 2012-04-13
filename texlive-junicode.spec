@@ -1,11 +1,11 @@
-# revision 25191
+# revision 25896
 # category Package
 # catalog-ctan /fonts/junicode
-# catalog-date 2012-01-23 23:37:37 +0100
+# catalog-date 2012-04-09 14:52:28 +0200
 # catalog-license gpl
-# catalog-version 0.7.1
+# catalog-version 0.7.6
 Name:		texlive-junicode
-Version:	0.7.1
+Version:	0.7.6
 Release:	1
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
@@ -19,8 +19,10 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Junicode is a TrueType font with many OpenType features, that
-works well with Xe(La)TeX.
+Junicode is a TrueType font with many OpenType features for
+antiquarians (especially medievalists) based on typefaces used
+by the Oxford Press in the late 17th and early 18th centuries.
+It works well with Xe(La)TeX.
 
 %post
     %{_sbindir}/texlive.post
@@ -40,8 +42,10 @@ works well with Xe(La)TeX.
 %doc %{_texmfdistdir}/doc/fonts/junicode/Junicode.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/Junicode.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/README
-%doc %{_texmfdistdir}/doc/fonts/junicode/mufi.pdf
-%doc %{_texmfdistdir}/doc/fonts/junicode/mufi.tex
+%doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.pdf
+%doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.tex
+%doc %{_texmfdistdir}/doc/fonts/junicode/homer_sample.pdf
+%doc %{_texmfdistdir}/doc/fonts/junicode/homer_sample.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/replacements
 
 #-----------------------------------------------------------------------
