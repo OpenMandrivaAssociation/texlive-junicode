@@ -57,3 +57,25 @@ It works well with Xe(La)TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.6-1
++ Revision: 790632
+- Update to latest release.
+
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.1-1
++ Revision: 770188
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6.17-2
++ Revision: 752935
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6.17-1
++ Revision: 718759
+- texlive-junicode
+- texlive-junicode
+- texlive-junicode
+- texlive-junicode
+
