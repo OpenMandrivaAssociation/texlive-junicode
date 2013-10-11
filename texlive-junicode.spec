@@ -1,11 +1,11 @@
-# revision 25896
+# revision 28286
 # category Package
 # catalog-ctan /fonts/junicode
-# catalog-date 2012-04-09 14:52:28 +0200
+# catalog-date 2012-11-17 16:00:23 +0100
 # catalog-license gpl
-# catalog-version 0.7.6
+# catalog-version 0.7.7
 Name:		texlive-junicode
-Version:	0.7.6
+Version:	0.7.7
 Release:	1
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
@@ -44,6 +44,7 @@ It works well with Xe(La)TeX.
 %doc %{_texmfdistdir}/doc/fonts/junicode/README
 %doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/aelfric_job.tex
+%doc %{_texmfdistdir}/doc/fonts/junicode/fleurons
 %doc %{_texmfdistdir}/doc/fonts/junicode/homer_sample.pdf
 %doc %{_texmfdistdir}/doc/fonts/junicode/homer_sample.tex
 %doc %{_texmfdistdir}/doc/fonts/junicode/replacements
@@ -57,25 +58,3 @@ It works well with Xe(La)TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.6-1
-+ Revision: 790632
-- Update to latest release.
-
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7.1-1
-+ Revision: 770188
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6.17-2
-+ Revision: 752935
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6.17-1
-+ Revision: 718759
-- texlive-junicode
-- texlive-junicode
-- texlive-junicode
-- texlive-junicode
-
