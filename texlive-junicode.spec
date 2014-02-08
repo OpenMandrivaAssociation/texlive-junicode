@@ -6,7 +6,7 @@
 # catalog-version 0.7.6
 Name:		texlive-junicode
 Version:	0.7.6
-Release:	1
+Release:	2
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/junicode
