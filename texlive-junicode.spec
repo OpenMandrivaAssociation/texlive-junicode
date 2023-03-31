@@ -1,6 +1,6 @@
 Name:		texlive-junicode
 Version:	61719
-Release:	1
+Release:	2
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/junicode
