@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	A TrueType font for mediaevalists
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/junicode
+URL:		https://www.ctan.org/tex-archive/fonts/junicode
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/junicode.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/junicode.doc.r%{version}.tar.xz
